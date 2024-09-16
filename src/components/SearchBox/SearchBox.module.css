@@ -1,0 +1,25 @@
+.search {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  padding: 12px 20px 25px 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  gap: 15px;
+}
+
+.search p {
+  margin: 0;
+  padding: 0;
+}
+
+.input {
+  height: 25px;
+}
+
+.search:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}

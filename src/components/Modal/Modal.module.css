@@ -1,0 +1,116 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  padding: 0;
+  margin: 0;
+  gap: 10px;
+}
+
+.field {
+  padding: 0;
+  margin: 0;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 20px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: left;
+  gap: 10px;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 0;
+  margin: 0;
+}
+
+.button {
+  border-radius: 5px;
+  width: 80px;
+  color: white;
+  background: black;
+  font-size: 14px;
+  font-weight: 400;
+  height: 41px;
+}
+
+.button:hover {
+  color: black;
+  background: black;
+  font-weight: 600;
+}
+
+.modal {
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  /* border-radius: 1%; */
+  border: 1px solid;
+  border-color: gainsboro;
+  top: 50%;
+  left: 50%;
+  width: 360px;
+  height: 230px;
+  padding: auto;
+  margin-top: -115px;
+  margin-left: -180px;
+  background: linear-gradient(114.95deg, rgba(39, 22, 40, 1.5) 0%, rgba(8, 25, 69, 0) 54.35%),
+    linear-gradient(244.35deg, #271f1f 0%, #4d1251 49.48%, #1b0842 100%);
+  background-blend-mode: hard-light, overlay, overlay, overlay, difference, difference, normal;
+}
+
+.modalContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 25px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.form button {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.formGroup .field {
+  font-family: Snell Roundhand, cursive;
+  font-size: 16px;
+}
+
+.error {
+  font-size: 14px;
+  color: orangered;
+}
+
+.formWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}

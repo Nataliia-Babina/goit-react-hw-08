@@ -1,0 +1,18 @@
+.container {
+  min-height: calc(100vh - 350px);
+  display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .title {
+    font-weight: 500;
+    font-size: 56px;
+    text-align: center;
+    font-family: Snell Roundhand, cursive;
+    font-style: normal;
+  }
+  
+  .title::first-letter {
+    font-size: 140px;
+  }

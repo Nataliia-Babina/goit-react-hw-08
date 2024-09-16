@@ -1,0 +1,13 @@
+.appWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainWeapper {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  align-items: flex-start;
+  margin-bottom: 25px;
+}

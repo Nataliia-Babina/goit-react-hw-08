@@ -1,0 +1,31 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.username {
+  font-size: 16px;
+}
+
+.username span {
+  font-family: Snell Roundhand, cursive;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.button {
+  border-radius: 5px;
+  width: 100px;
+  color: white;
+  background: gray;
+  font-size: 15px;
+  font-weight: 600;
+  height: 37px;
+}
+
+.button:hover {
+  color: black;
+  background: white;
+  font-weight: 600;
+}
